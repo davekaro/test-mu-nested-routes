@@ -8,9 +8,7 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('levelone', function() {
-    this.route('leveltwo', function() {
-      this.route('levelthree');
-    });
+    this.route('leveltwo');
   });
 });
 
